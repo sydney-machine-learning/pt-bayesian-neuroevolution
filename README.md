@@ -1,6 +1,13 @@
 # Bayesian neuroevolution using distributed swarm optimisation and tempered MCMC
 A synergy of Neuro-evolution and Bayesian neural learning by using Particle Swarm Optimization for forming efficient proposals in parallel tempering MCMC. The architecture is implemented in a parallel computing environment for improving computational efficiency.
 
+## Requirements
+This project was tested on python 3.8 and the required packages can be installed using the provided `requirements.txt`:
+
+```
+    pip install -r requirements.txt
+```
+
 ## Running Evolutionary Parallel Tempering
 ```
     cd pt_pso
