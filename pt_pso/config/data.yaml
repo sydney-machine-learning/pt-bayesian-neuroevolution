@@ -1,0 +1,149 @@
+# DATA CONFIG
+synthetic:
+  num_samples: 40000
+  problem_type: regression
+  topology: "4,2,1"
+  name: synthetic
+  train_data: 'synthetic_data/target_train.csv'
+  test_data: 'synthetic_data/target_test.csv'
+
+iris:
+  num_samples: 10000
+  problem_type: classification
+  topology: "4,10,3"
+  name: iris
+  train_data: 'data_classification/Iris/iris-train.csv'
+  test_data: 'data_classification/Iris/iris-test.csv'
+
+ions:
+  num_samples: 60000
+  problem_type: classification
+  topology: "35,50,2"
+  name: ionosphere
+  train_data: 'data_classification/Ions/ftrain.csv'
+  test_data: 'data_classification/Ions/ftest.csv'
+
+cancer:
+  num_samples: 60000
+  problem_type: classification
+  topology: "8,12,2"
+  name: cancer
+  train_data: 'data_classification/Cancer/ftrain.txt'
+  test_data: 'data_classification/Cancer/ftest.txt'
+
+TicTacToe:
+  num_samples: 50000
+  problem_type: classification
+  topology: "9,15,2"
+  name: TicTacToe
+  train_data: 'data_classification/TicTacToe/ftrain.csv'
+  test_data: 'data_classification/TicTacToe/ftest.csv'
+
+bank:
+  num_samples: 50000
+  problem_type: classification
+  topology: "51,90,2"
+  name: bank
+  train_data: 'data_classification/Bank/train.csv'
+  test_data: 'data_classification/Bank/test.csv'
+
+penDigit:
+  num_samples: 50000
+  problem_type: classification
+  topology: "16,30,10"
+  name: penDigit
+  train_data: 'data_classification/PenDigit/train.csv'
+  test_data: 'data_classification/PenDigit/test.csv'
+
+chess:
+  num_samples: 40000
+  problem_type: classification
+  topology: "6,25,18"
+  name: chess
+  train_data: 'data_classification/Chess/train.csv'
+  test_data: 'data_classification/Chess/test.csv'
+
+4bit:
+  num_samples: 50040
+  problem_type: classification
+  topology: "4,5,2"
+  name: 4bit
+  train_data: 'data_classification/4bit/train.csv'
+  test_data: 'data_classification/4bit/test.csv'
+
+6bit:
+  num_samples: 50040
+  problem_type: classification
+  topology: "4,5,2"
+  name: 6bit
+  train_data: 'data_classification/6bit/train.csv'
+  test_data: 'data_classification/6bit/test.csv'
+
+8bit:
+  num_samples: 50040
+  problem_type: classification
+  topology: "4,5,2"
+  name: 8bit
+  train_data: 'data_classification/8bit/train.csv'
+  test_data: 'data_classification/8bit/test.csv'
+
+lazer:
+  num_samples: 100000
+  problem_type: regression
+  topology: "4,5,1"
+  name: lazer
+  train_data: 'data_timeseries/Lazer/train.txt'
+  test_data: 'data_timeseries/Lazer/test.txt'
+
+acfinance:
+  num_samples: 100000
+  problem_type: regression
+  topology: "4,5,1"
+  name: acfinance
+  train_data: 'data_timeseries/ACFinance/train.txt'
+  test_data: 'data_timeseries/ACFinance/test.txt'
+
+henon:
+  num_samples: 100000
+  problem_type: regression
+  topology: "4,5,1"
+  name: henon
+  train_data: 'data_timeseries/Henon/train.txt'
+  test_data: 'data_timeseries/Henon/test.txt'
+
+lorenz:
+  num_samples: 100000
+  problem_type: regression
+  topology: "4,5,1"
+  name: lorenz
+  train_data: 'data_timeseries/Lorenz/train.txt'
+  test_data: 'data_timeseries/Lorenz/test.txt'  
+
+mackey:
+  num_samples: 100000
+  problem_type: regression
+  topology: "4,5,1"
+  name: mackey
+  train_data: 'data_timeseries/Mackey/train.txt'
+  test_data: 'data_timeseries/Mackey/test.txt'  
+
+
+sunspot:
+  num_samples: 100000
+  problem_type: regression
+  topology: "4,5,1"
+  name: sunspot
+  train_data: 'data_timeseries/Sunspot/train.txt'
+  test_data: 'data_timeseries/Sunspot/test.txt'  
+
+rossler:
+  num_samples: 100000
+  problem_type: regression
+  topology: "4,5,1"
+  name: rossler
+  train_data: 'data_timeseries/Rossler/train.txt'
+  test_data: 'data_timeseries/Rossler/test.txt'  
+
+  
+
+  
