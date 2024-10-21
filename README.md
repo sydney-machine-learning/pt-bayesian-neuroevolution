@@ -63,7 +63,6 @@ The approach is tested on the following datasets:
 2. [Ionosphere](https://archive.ics.uci.edu/ml/datasets/ionosphere)
 3. [Breast Cancer](https://archive.ics.uci.edu/ml/datasets/breast+cancer+wisconsin+%28original%29)
 4. [Pen Digit](https://archive.ics.uci.edu/ml/datasets/Pen-Based+Recognition+of+Handwritten+Digits)
-5. 
 
 ## Cite this work
 ```
