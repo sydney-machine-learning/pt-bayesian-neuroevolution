@@ -66,6 +66,7 @@ The approach is tested on the following datasets:
 5. 
 
 ## Cite this work
+```
 @article{kapoor2022bayesian,
   title={Bayesian neuroevolution using distributed swarm optimization and tempered MCMC},
   author={Kapoor, Arpit and Nukala, Eshwar and Chandra, Rohitash},
@@ -75,3 +76,4 @@ The approach is tested on the following datasets:
   year={2022},
   publisher={Elsevier}
 }
+```
