@@ -63,3 +63,15 @@ The approach is tested on the following datasets:
 2. [Ionosphere](https://archive.ics.uci.edu/ml/datasets/ionosphere)
 3. [Breast Cancer](https://archive.ics.uci.edu/ml/datasets/breast+cancer+wisconsin+%28original%29)
 4. [Pen Digit](https://archive.ics.uci.edu/ml/datasets/Pen-Based+Recognition+of+Handwritten+Digits)
+5. 
+
+## Cite this work
+@article{kapoor2022bayesian,
+  title={Bayesian neuroevolution using distributed swarm optimization and tempered MCMC},
+  author={Kapoor, Arpit and Nukala, Eshwar and Chandra, Rohitash},
+  journal={Applied Soft Computing},
+  volume={129},
+  pages={109528},
+  year={2022},
+  publisher={Elsevier}
+}
